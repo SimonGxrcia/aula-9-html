@@ -1,30 +1,132 @@
 body{
-
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+transition: 0.3s;
+    background-color: #dededf;
+   margin: 0%; 
 }
 /* separação foda */
 
-footer,header{
-
+header,footer{
+    padding: 10px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    color: #fff ;
+background-color: #373635;
+text-align: center;
 
 }
 /* separação foda */
 
 main{
+    background-color: #d4d4d4;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+
+/* separação foda */
+
+nav{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff ;
+background-color: #373635;
+text-align: center;
+
+}
+
+/* separação foda */
+
+nav ul {
+
+    list-style: none;
+   display: flex;
+    justify-content: flex-end;
+
+}
+
+/* separação foda */
+
+nav ul li {
 
 
 }
 
 /* separação foda */
 
-teste{
-
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 
 /* separação foda */
 
-teste2 {
+figure{
+    margin: 0%;
+    margin-left: 20px;
+}
 
+/* separação foda */
+
+article{        
+    width: 40%;
+    margin: 20px;
+    background-color: #b4b4b4;
+    padding: 20px;
+
+
+}
+
+/* separação muito mais foda */
+
+.container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* separação foda */
+
+.bloco {
+
+    display: flex;
     
 }
+
+@media screen and (max-width: 768px) {
+
+    .bloco{
+        flex-wrap: nowrap;
+
+    }
+
+    article{
+        width: 100%;
+    }
+    figure{
+        margin-left: 10px;
+    }
+body{
+    transform: translateY(-100px);
+    
+}
+}
+
+/* separação foda */
+
+@media screen and (max-width: 900px) {
+
+    .bloco{
+flex-wrap: wrap;    
+justify-self: center;    
+    }
+    }
